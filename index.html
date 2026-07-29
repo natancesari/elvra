@@ -12,7 +12,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELVRA - Offizielles Angebot & Preise</title>
+    <title data-i18n="title">ELVRA - Offizielles Angebot & Preise</title>
     <style>
         /* Reset und Basis-Styling */
         * {
@@ -145,7 +145,7 @@
         /* Product Image Styling */
         .product-image {
             width: 100%;
-            max-width: 180px; /* Controla o tamanho máximo da imagem */
+            max-width: 180px;
             height: auto;
             margin: 0 auto 20px auto;
             display: block;
@@ -313,103 +313,100 @@
 </head>
 <body>
 
-    <div class="advertorial-bar">
+    <div class="advertorial-bar" data-i18n="adv">
         Werbeanzeige / Advertorial
     </div>
 
     <header>
         <h1>ELVRA</h1>
-        <p>Offizielle Verfügbarkeit prüfen</p>
+        <p data-i18n="sub">Offizielle Verfügbarkeit prüfen</p>
     </header>
 
     <div class="container">
         <div class="hero">
-            <h2>Sichern Sie sich Ihr Paket noch heute</h2>
-            <p>Wählen Sie unten Ihr gewünschtes Paket aus. Die Bestellung erfolgt sicher und verschlüsselt über den offiziellen Hersteller.</p>
+            <h2 data-i18n="hero_h2">Sichern Sie sich Ihr Paket noch heute</h2>
+            <p data-i18n="hero_p">Wählen Sie unten Ihr gewünschtes Paket aus. Die Bestellung erfolgt sicher und verschlüsselt über den offiziellen Hersteller.</p>
         </div>
 
         <div class="pricing-wrapper">
             
             <!-- Paket 1: Einsteiger (1 Pote) -->
             <div class="pricing-card">
-                <div class="package-title">Einsteiger</div>
+                <div class="package-title" data-i18n="pkg1_title">Einsteiger</div>
                 
-                <!-- ESPAÇO PARA A IMAGEM DE 1 POTE -->
                 <img src="1 pote.png" alt="1 Flasche ELVRA" class="product-image">
                 
                 <div class="price-container">
                     <span class="old-price">79,95 €</span>
                     <div class="new-price">59,95<span class="currency">€</span></div>
-                    <span class="per-bottle">pro Flasche</span>
+                    <span class="per-bottle" data-i18n="per_bottle">pro Flasche</span>
                 </div>
                 
                 <ul class="features-list">
-                    <li>1 Flasche ELVRA</li>
-                    <li>Sichere Einmalzahlung</li>
-                    <li>Kein Abonnement</li>
+                    <li data-i18n="pkg1_li1">1 Flasche ELVRA</li>
+                    <li data-i18n="secure_pay">Sichere Einmalzahlung</li>
+                    <li data-i18n="no_sub">Kein Abonnement</li>
                 </ul>
 
-                <div class="total-price">Gesamtpreis: 59,95 €</div>
+                <div class="total-price" data-i18n="total_59">Gesamtpreis: 59,95 €</div>
                 
-                <a href="https://www.firewolftrack.com/329S9ZBB/23B6728H/" class="cta-button" target="_blank" rel="noopener nofollow">Jetzt bestellen</a>
+                <a href="https://www.firewolftrack.com/329S9ZBB/23B6728H/" class="cta-button" target="_blank" rel="noopener nofollow" data-i18n="order">Jetzt bestellen</a>
             </div>
 
             <!-- Paket 2: Bestseller (3 Potes) -->
             <div class="pricing-card bestseller-card">
-                <div class="badge">Bestseller</div>
-                <div class="package-title">Bestseller</div>
+                <div class="badge" data-i18n="bestseller_badge">Bestseller</div>
+                <div class="package-title" data-i18n="bestseller_title">Bestseller</div>
                 
-                <!-- ESPAÇO PARA A IMAGEM DE 3 POTES -->
                 <img src="3 potes.png" alt="3 Flaschen ELVRA" class="product-image" style="max-width: 240px;">
                 
                 <div class="price-container">
                     <span class="old-price">79,95 €</span>
                     <div class="new-price">39,98<span class="currency">€</span></div>
-                    <span class="per-bottle">pro Flasche</span>
+                    <span class="per-bottle" data-i18n="per_bottle">pro Flasche</span>
                 </div>
                 
                 <ul class="features-list">
-                    <li><strong>3 Flaschen</strong> ELVRA</li>
-                    <li>Maximaler Rabatt</li>
-                    <li>Kostenloser Versand möglich</li>
-                    <li>Kein Abonnement</li>
+                    <li data-i18n="pkg2_li1"><strong>3 Flaschen</strong> ELVRA</li>
+                    <li data-i18n="max_disc">Maximaler Rabatt</li>
+                    <li data-i18n="free_ship">Kostenloser Versand möglich</li>
+                    <li data-i18n="no_sub">Kein Abonnement</li>
                 </ul>
 
-                <div class="total-price">Gesamtpreis: 119,94 €</div>
+                <div class="total-price" data-i18n="total_119">Gesamtpreis: 119,94 €</div>
                 
-                <a href="https://www.firewolftrack.com/329S9ZBB/23B6728H/" class="cta-button" target="_blank" rel="noopener nofollow">Jetzt bestellen</a>
+                <a href="https://www.firewolftrack.com/329S9ZBB/23B6728H/" class="cta-button" target="_blank" rel="noopener nofollow" data-i18n="order">Jetzt bestellen</a>
             </div>
 
             <!-- Paket 3: Verkaufshit (2 Potes) -->
             <div class="pricing-card">
-                <div class="package-title">Verkaufshit</div>
+                <div class="package-title" data-i18n="topseller">Verkaufshit</div>
                 
-                <!-- ESPAÇO PARA A IMAGEM DE 2 POTES -->
                 <img src="2 potes.png" alt="2 Flaschen ELVRA" class="product-image" style="max-width: 220px;">
                 
                 <div class="price-container">
                     <span class="old-price">79,95 €</span>
                     <div class="new-price">49,98<span class="currency">€</span></div>
-                    <span class="per-bottle">pro Flasche</span>
+                    <span class="per-bottle" data-i18n="per_bottle">pro Flasche</span>
                 </div>
                 
                 <ul class="features-list">
-                    <li><strong>2 Flaschen</strong> ELVRA</li>
-                    <li>Beliebtes Starter-Set</li>
-                    <li>Sichere Einmalzahlung</li>
-                    <li>Kein Abonnement</li>
+                    <li data-i18n="pkg3_li1"><strong>2 Flaschen</strong> ELVRA</li>
+                    <li data-i18n="starter_set">Beliebtes Starter-Set</li>
+                    <li data-i18n="secure_pay">Sichere Einmalzahlung</li>
+                    <li data-i18n="no_sub">Kein Abonnement</li>
                 </ul>
 
-                <div class="total-price">Gesamtpreis: 99,96 €</div>
+                <div class="total-price" data-i18n="total_99">Gesamtpreis: 99,96 €</div>
                 
-                <a href="https://www.firewolftrack.com/329S9ZBB/23B6728H/" class="cta-button" target="_blank" rel="noopener nofollow">Jetzt bestellen</a>
+                <a href="https://www.firewolftrack.com/329S9ZBB/23B6728H/" class="cta-button" target="_blank" rel="noopener nofollow" data-i18n="order">Jetzt bestellen</a>
             </div>
 
         </div>
 
         <div class="trust-section">
-            <h3>Bereits über 76.289 Kunden sind von Elvra überzeugt</h3>
-            <p>Ihre Bestellung ist zu 100% sicher und durch moderne 256-Bit-Verschlüsselung geschützt.</p>
+            <h3 data-i18n="trust_h3">Bereits über 76.289 Kunden sind von Elvra überzeugt</h3>
+            <p data-i18n="trust_p">Ihre Bestellung ist zu 100% sicher und durch moderne 256-Bit-Verschlüsselung geschützt.</p>
             <div class="payment-icons">
                 <span>✓ PayPal</span>
                 <span>✓ Klarna</span>
@@ -421,17 +418,138 @@
 
     <footer>
         <div class="footer-links">
-            <a href="#">Impressum</a>
-            <a href="#">Datenschutzerklärung</a>
-            <a href="#">Allgemeine Geschäftsbedingungen</a>
-            <a href="#">Kontakt</a>
+            <a href="#" data-i18n="imprint">Impressum</a>
+            <a href="#" data-i18n="privacy">Datenschutzerklärung</a>
+            <a href="#" data-i18n="tos">Allgemeine Geschäftsbedingungen</a>
+            <a href="#" data-i18n="contact">Kontakt</a>
         </div>
         <div class="disclaimer">
-            <p><strong>Werbehinweis / Affiliate-Disclaimer:</strong> Diese Website ist ein unabhängiges Werbeportal und nicht die offizielle Website des Herstellers. Wenn Sie auf einen Link auf dieser Seite klicken und einen Kauf tätigen, erhalten wir möglicherweise eine Affiliate-Provision. Dies hat keinen Einfluss auf den Preis, den Sie zahlen.</p>
-            <p>Die auf dieser Website gemachten Aussagen wurden nicht von der Food and Drug Administration (FDA) oder der Europäischen Arzneimittel-Agentur bewertet. Dieses Produkt ist nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt. Ergebnisse können variieren.</p>
-            <p>&copy; 2023 ELVRA Angebot. Alle Rechte vorbehalten.</p>
+            <p data-i18n="disc1"><strong>Werbehinweis / Affiliate-Disclaimer:</strong> Diese Website ist ein unabhängiges Werbeportal und nicht die offizielle Website des Herstellers. Wenn Sie auf einen Link auf dieser Seite klicken und einen Kauf tätigen, erhalten wir möglicherweise eine Affiliate-Provision. Dies hat keinen Einfluss auf den Preis, den Sie zahlen.</p>
+            <p data-i18n="disc2">Die auf dieser Website gemachten Aussagen wurden nicht von der Food and Drug Administration (FDA) oder der Europäischen Arzneimittel-Agentur bewertet. Dieses Produkt ist nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt. Ergebnisse können variieren.</p>
+            <p data-i18n="disc3">&copy; 2023 ELVRA Angebot. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
+
+    <!-- SCRIPT DE TRADUÇÃO DINÂMICA (Invisível ao usuário) -->
+    <script>
+        const i18nDict = {
+            'en': {
+                'title': 'ELVRA - Official Offer & Prices',
+                'adv': 'Advertisement / Advertorial',
+                'sub': 'Check Official Availability',
+                'hero_h2': 'Secure Your Package Today',
+                'hero_p': 'Choose your desired package below. Ordering is secure and encrypted through the official manufacturer.',
+                'pkg1_title': 'Beginner',
+                'per_bottle': 'per bottle',
+                'pkg1_li1': '1 Bottle ELVRA',
+                'secure_pay': 'Secure one-time payment',
+                'no_sub': 'No subscription',
+                'total_59': 'Total price: 59.95 €',
+                'order': 'Order Now',
+                'bestseller_badge': 'Bestseller',
+                'bestseller_title': 'Bestseller',
+                'pkg2_li1': '<strong>3 Bottles</strong> ELVRA',
+                'max_disc': 'Maximum discount',
+                'free_ship': 'Free shipping possible',
+                'total_119': 'Total price: 119.94 €',
+                'topseller': 'Top Seller',
+                'pkg3_li1': '<strong>2 Bottles</strong> ELVRA',
+                'starter_set': 'Popular starter set',
+                'total_99': 'Total price: 99.96 €',
+                'trust_h3': 'Over 76,289 customers are already convinced by Elvra',
+                'trust_p': 'Your order is 100% secure and protected by modern 256-bit encryption.',
+                'imprint': 'Imprint',
+                'privacy': 'Privacy Policy',
+                'tos': 'Terms & Conditions',
+                'contact': 'Contact',
+                'disc1': '<strong>Advertising Note / Affiliate Disclaimer:</strong> This website is an independent advertising portal and not the official website of the manufacturer. If you click on a link on this page and make a purchase, we may receive an affiliate commission. This does not affect the price you pay.',
+                'disc2': 'Statements made on this website have not been evaluated by the Food and Drug Administration (FDA) or the European Medicines Agency. This product is not intended to diagnose, treat, cure, or prevent any disease. Results may vary.',
+                'disc3': '&copy; 2023 ELVRA Offer. All rights reserved.'
+            },
+            'pt': {
+                'title': 'ELVRA - Oferta Oficial e Preços',
+                'adv': 'Anúncio / Advertorial',
+                'sub': 'Verificar Disponibilidade Oficial',
+                'hero_h2': 'Garanta Seu Pacote Hoje',
+                'hero_p': 'Escolha o pacote desejado abaixo. O pedido é 100% seguro e criptografado através do fabricante oficial.',
+                'pkg1_title': 'Iniciante',
+                'per_bottle': 'por frasco',
+                'pkg1_li1': '1 Frasco ELVRA',
+                'secure_pay': 'Pagamento único seguro',
+                'no_sub': 'Sem assinatura',
+                'total_59': 'Preço total: 59,95 €',
+                'order': 'Fazer Pedido Agora',
+                'bestseller_badge': 'Mais Vendido',
+                'bestseller_title': 'Mais Vendido',
+                'pkg2_li1': '<strong>3 Frascos</strong> ELVRA',
+                'max_disc': 'Desconto máximo',
+                'free_ship': 'Frete grátis possível',
+                'total_119': 'Preço total: 119,94 €',
+                'topseller': 'Sucesso de Vendas',
+                'pkg3_li1': '<strong>2 Frascos</strong> ELVRA',
+                'starter_set': 'Kit inicial popular',
+                'total_99': 'Preço total: 99,96 €',
+                'trust_h3': 'Mais de 76.289 clientes já estão convencidos pela Elvra',
+                'trust_p': 'Seu pedido é 100% seguro e protegido por criptografia moderna de 256 bits.',
+                'imprint': 'Aviso Legal',
+                'privacy': 'Política de Privacidade',
+                'tos': 'Termos e Condições',
+                'contact': 'Contato',
+                'disc1': '<strong>Nota de Publicidade / Isenção de Afiliados:</strong> Este site é um portal de publicidade independente e não o site oficial do fabricante. Se você clicar em um link nesta página e fizer uma compra, poderemos receber uma comissão de afiliado. Isso não afeta o preço que você paga.',
+                'disc2': 'As declarações feitas neste site não foram avaliadas pela Food and Drug Administration (FDA) ou pela Agência Europeia de Medicamentos. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Os resultados podem variar.',
+                'disc3': '&copy; 2023 Oferta ELVRA. Todos os direitos reservados.'
+            },
+            'es': {
+                'title': 'ELVRA - Oferta Oficial y Precios',
+                'adv': 'Anuncio / Publirreportaje',
+                'sub': 'Consultar Disponibilidad Oficial',
+                'hero_h2': 'Asegure Su Paquete Hoy',
+                'hero_p': 'Elija su paquete deseado a continuación. El pedido es seguro y está encriptado a través del fabricante oficial.',
+                'pkg1_title': 'Principiante',
+                'per_bottle': 'por botella',
+                'pkg1_li1': '1 Botella ELVRA',
+                'secure_pay': 'Pago único seguro',
+                'no_sub': 'Sin suscripción',
+                'total_59': 'Precio total: 59,95 €',
+                'order': 'Pedir Ahora',
+                'bestseller_badge': 'Más Vendido',
+                'bestseller_title': 'Más Vendido',
+                'pkg2_li1': '<strong>3 Botellas</strong> ELVRA',
+                'max_disc': 'Descuento máximo',
+                'free_ship': 'Envío gratis posible',
+                'total_119': 'Precio total: 119,94 €',
+                'topseller': 'Éxito de Ventas',
+                'pkg3_li1': '<strong>2 Botellas</strong> ELVRA',
+                'starter_set': 'Set de inicio popular',
+                'total_99': 'Precio total: 99,96 €',
+                'trust_h3': 'Más de 76.289 clientes ya están convencidos por Elvra',
+                'trust_p': 'Su pedido es 100% seguro y está protegido por un moderno cifrado de 256 bits.',
+                'imprint': 'Aviso Legal',
+                'privacy': 'Política de Privacidad',
+                'tos': 'Términos y Condiciones',
+                'contact': 'Contacto',
+                'disc1': '<strong>Nota de Publicidad / Descargo de Afiliados:</strong> Este sitio web es un portal de publicidad independiente y no el sitio web oficial del fabricante. Si hace clic en un enlace de esta página y realiza una compra, es posible que recibamos una comisión de afiliado. Esto no afecta el precio que paga.',
+                'disc2': 'Las declaraciones hechas en este sitio web no han sido evaluadas por la Administración de Alimentos y Medicamentos (FDA) o la Agencia Europea de Medicamentos. Este producto no está destinado a diagnosticar, tratar, curar o prevenir ninguna enfermedad. Los resultados pueden variar.',
+                'disc3': '&copy; 2023 Oferta ELVRA. Todos los derechos reservados.'
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var userLang = navigator.language || navigator.userLanguage;
+            var langCode = userLang.split('-')[0].toLowerCase();
+
+            // Se o idioma for um dos configurados (exeto DE, pois o HTML original já é alemão)
+            if (i18nDict[langCode]) {
+                document.documentElement.lang = langCode;
+                document.querySelectorAll('[data-i18n]').forEach(function(el) {
+                    var key = el.getAttribute('data-i18n');
+                    if (i18nDict[langCode][key]) {
+                        el.innerHTML = i18nDict[langCode][key];
+                    }
+                });
+            }
+        });
+    </script>
 
 </body>
 </html>
